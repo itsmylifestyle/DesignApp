@@ -9,13 +9,15 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        ZStack {
-            Image("maptest")
-            Text("Eiffel Tower")
-                .font(.largeTitle)
-                .background(Color.white)
-                .foregroundColor(Color.red)
-        }
+        Text("Hello, world!")
+            .font(.largeTitle)
+            .padding()
+            .background(Color.yellow)
+            .foregroundColor(.red)
+        
+            .padding()
+            .background(.red)
+        
     }
 }
 
