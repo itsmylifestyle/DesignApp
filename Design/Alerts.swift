@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct AlertView: View {
 
     @State private var showingAlert = false//firstSection
     
@@ -63,36 +63,5 @@ struct ContentView: View {
             }])
         }//some practice with alerts
         
-    }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
     }
 }
