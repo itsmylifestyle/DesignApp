@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Image: View {
+struct ImageGG: View {
     var body: some View {
         
         Text("Hello, World!")
