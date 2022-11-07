@@ -28,6 +28,10 @@
 		A76D3DFF290294F000457FB6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A76D3DFE290294F000457FB6 /* Preview Assets.xcassets */; };
 		A78F917329070904008C589B /* taps.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78F917229070904008C589B /* taps.swift */; };
 		A78F917529070E96008C589B /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78F917429070E96008C589B /* List.swift */; };
+		A7AF7D3829196AE500E9143B /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AF7D3729196AE500E9143B /* UserSettings.swift */; };
+		A7AF7D3A29196F3000E9143B /* ContentForUserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AF7D3929196F3000E9143B /* ContentForUserSettings.swift */; };
+		A7AF7D3C2919715000E9143B /* DetailedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AF7D3B2919715000E9143B /* DetailedView.swift */; };
+		A7AF7D4329197D2B00E9143B /* ContentForDetailedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AF7D4229197D2B00E9143B /* ContentForDetailedView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +57,10 @@
 		A76D3DFE290294F000457FB6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A78F917229070904008C589B /* taps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = taps.swift; sourceTree = "<group>"; };
 		A78F917429070E96008C589B /* List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List.swift; sourceTree = "<group>"; };
+		A7AF7D3729196AE500E9143B /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
+		A7AF7D3929196F3000E9143B /* ContentForUserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentForUserSettings.swift; sourceTree = "<group>"; };
+		A7AF7D3B2919715000E9143B /* DetailedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedView.swift; sourceTree = "<group>"; };
+		A7AF7D4229197D2B00E9143B /* ContentForDetailedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentForDetailedView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +93,53 @@
 		A76D3DF6290294F000457FB6 /* Design */ = {
 			isa = PBXGroup;
 			children = (
+				A76D3DF9290294F000457FB6 /* ContentView.swift */,
+				A7AF7D3F291978E200E9143B /* JustForSimple */,
+				A7AF7D3629196AB700E9143B /* WorkingWithView */,
+				A76D3DFB290294F000457FB6 /* Assets.xcassets */,
+				A76D3DFD290294F000457FB6 /* Preview Content */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		A76D3DFD290294F000457FB6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A76D3DFE290294F000457FB6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A7AF7D3629196AB700E9143B /* WorkingWithView */ = {
+			isa = PBXGroup;
+			children = (
+				A7AF7D3E2919783200E9143B /* ViewMovement */,
+				A7AF7D3D2919781C00E9143B /* UserSetPropertyWrapper */,
+			);
+			path = WorkingWithView;
+			sourceTree = "<group>";
+		};
+		A7AF7D3D2919781C00E9143B /* UserSetPropertyWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				A7AF7D3729196AE500E9143B /* UserSettings.swift */,
+				A7AF7D3929196F3000E9143B /* ContentForUserSettings.swift */,
+			);
+			path = UserSetPropertyWrapper;
+			sourceTree = "<group>";
+		};
+		A7AF7D3E2919783200E9143B /* ViewMovement */ = {
+			isa = PBXGroup;
+			children = (
+				A7AF7D4229197D2B00E9143B /* ContentForDetailedView.swift */,
+				A7AF7D3B2919715000E9143B /* DetailedView.swift */,
+			);
+			path = ViewMovement;
+			sourceTree = "<group>";
+		};
+		A7AF7D3F291978E200E9143B /* JustForSimple */ = {
+			isa = PBXGroup;
+			children = (
 				A78F917229070904008C589B /* taps.swift */,
 				A7361EF12902C50800A0ABFA /* Stepper.swift */,
 				A7361EEF2902C34700A0ABFA /* Picker.swift */,
@@ -102,20 +157,9 @@
 				A74D9E12290AE5BF006CE335 /* FormView.swift */,
 				A74735C7290ED42500CFCF53 /* Alerts.swift */,
 				A76845C92912E1070015BB9A /* ModifiersAndExt.swift */,
-				A76D3DF9290294F000457FB6 /* ContentView.swift */,
 				A76D3DF7290294F000457FB6 /* DesignApp.swift */,
-				A76D3DFB290294F000457FB6 /* Assets.xcassets */,
-				A76D3DFD290294F000457FB6 /* Preview Content */,
 			);
-			path = Design;
-			sourceTree = "<group>";
-		};
-		A76D3DFD290294F000457FB6 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				A76D3DFE290294F000457FB6 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
+			path = JustForSimple;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,15 +236,19 @@
 				A7361EEA2902B87D00A0ABFA /* Button.swift in Sources */,
 				A74D9E11290AE0E5006CE335 /* GroupView.swift in Sources */,
 				A78F917329070904008C589B /* taps.swift in Sources */,
+				A7AF7D3A29196F3000E9143B /* ContentForUserSettings.swift in Sources */,
 				A7361EE62902B04000A0ABFA /* Gradient.swift in Sources */,
 				A76D3DFA290294F000457FB6 /* ContentView.swift in Sources */,
 				A78F917529070E96008C589B /* List.swift in Sources */,
 				A7361EF02902C34800A0ABFA /* Picker.swift in Sources */,
 				A7361EE22902A65900A0ABFA /* Image.swift in Sources */,
 				A7361EE82902B50F00A0ABFA /* Toggle.swift in Sources */,
+				A7AF7D4329197D2B00E9143B /* ContentForDetailedView.swift in Sources */,
 				A7361EE42902A71100A0ABFA /* Strings.swift in Sources */,
 				A74D9E0F290ADF63006CE335 /* TabView.swift in Sources */,
 				A7361EEE2902BEB300A0ABFA /* changer.swift in Sources */,
+				A7AF7D3C2919715000E9143B /* DetailedView.swift in Sources */,
+				A7AF7D3829196AE500E9143B /* UserSettings.swift in Sources */,
 				A7361EF22902C50800A0ABFA /* Stepper.swift in Sources */,
 				A76845CA2912E1070015BB9A /* ModifiersAndExt.swift in Sources */,
 				A7361EEC2902BC8500A0ABFA /* Fields.swift in Sources */,

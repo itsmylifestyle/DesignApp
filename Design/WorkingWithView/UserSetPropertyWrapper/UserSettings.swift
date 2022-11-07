@@ -14,6 +14,6 @@ class UserSettings : ObservableObject {
 
 struct UserSettings_Previews : PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentViewForUserSettings()
     }
 }
