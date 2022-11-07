@@ -21,7 +21,7 @@ import SwiftUI
 //}
 
 
-struct ContentView: View {
+struct ContentViewForUserSettings: View {
     
 //1    @State private var user = User()
     
@@ -71,8 +71,8 @@ struct ContentView: View {
 
 
 
-struct ContentView_Previews: PreviewProvider {
+struct ContentViewForUserSettings_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentViewForUserSettings()
     }
 }

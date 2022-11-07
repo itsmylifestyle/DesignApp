@@ -55,8 +55,8 @@ struct ContentForDetailedView: View {
 }
 
 
-struct ContentForDetailedView_Preview: PreviewProvider {
-    static var previewsDetailed: some View {
-        ContentForDetailedView()
-    }
-}
+//struct ContentForDetailedView_Preview: PreviewProvider {
+//    static var previewsDetailed: some View {
+//        ContentForDetailedView()
+//    }
+//}
