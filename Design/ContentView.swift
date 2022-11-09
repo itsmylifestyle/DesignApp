@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Next Lesson User Defaults")
+        Text("On a way to my first offer")
     }
 }
 

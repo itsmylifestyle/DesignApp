@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A71D726A291C14D700BFB3C9 /* UserDef.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71D7269291C14D700BFB3C9 /* UserDef.swift */; };
 		A7361EE22902A65900A0ABFA /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7361EE12902A65900A0ABFA /* Image.swift */; };
 		A7361EE42902A71100A0ABFA /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7361EE32902A71100A0ABFA /* Strings.swift */; };
 		A7361EE62902B04000A0ABFA /* Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7361EE52902B04000A0ABFA /* Gradient.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A71D7269291C14D700BFB3C9 /* UserDef.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDef.swift; sourceTree = "<group>"; };
 		A7361EE12902A65900A0ABFA /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
 		A7361EE32902A71100A0ABFA /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
 		A7361EE52902B04000A0ABFA /* Gradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gradient.swift; sourceTree = "<group>"; };
@@ -74,6 +76,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A71D7268291C14C900BFB3C9 /* UserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				A71D7269291C14D700BFB3C9 /* UserDef.swift */,
+			);
+			path = UserDefaults;
+			sourceTree = "<group>";
+		};
 		A76D3DEB290294F000457FB6 = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				A76D3DF9290294F000457FB6 /* ContentView.swift */,
+				A71D7268291C14C900BFB3C9 /* UserDefaults */,
 				A7AF7D3F291978E200E9143B /* JustForSimple */,
 				A7AF7D3629196AB700E9143B /* WorkingWithView */,
 				A76D3DFB290294F000457FB6 /* Assets.xcassets */,
@@ -238,6 +249,7 @@
 				A78F917329070904008C589B /* taps.swift in Sources */,
 				A7AF7D3A29196F3000E9143B /* ContentForUserSettings.swift in Sources */,
 				A7361EE62902B04000A0ABFA /* Gradient.swift in Sources */,
+				A71D726A291C14D700BFB3C9 /* UserDef.swift in Sources */,
 				A76D3DFA290294F000457FB6 /* ContentView.swift in Sources */,
 				A78F917529070E96008C589B /* List.swift in Sources */,
 				A7361EF02902C34800A0ABFA /* Picker.swift in Sources */,
