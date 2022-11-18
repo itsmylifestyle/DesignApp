@@ -33,6 +33,7 @@
 		A7AF7D3A29196F3000E9143B /* ContentForUserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AF7D3929196F3000E9143B /* ContentForUserSettings.swift */; };
 		A7AF7D3C2919715000E9143B /* DetailedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AF7D3B2919715000E9143B /* DetailedView.swift */; };
 		A7AF7D4329197D2B00E9143B /* ContentForDetailedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AF7D4229197D2B00E9143B /* ContentForDetailedView.swift */; };
+		A7FC8B282927D16C00CADC38 /* ViewMod.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FC8B272927D16C00CADC38 /* ViewMod.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +64,7 @@
 		A7AF7D3929196F3000E9143B /* ContentForUserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentForUserSettings.swift; sourceTree = "<group>"; };
 		A7AF7D3B2919715000E9143B /* DetailedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedView.swift; sourceTree = "<group>"; };
 		A7AF7D4229197D2B00E9143B /* ContentForDetailedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentForDetailedView.swift; sourceTree = "<group>"; };
+		A7FC8B272927D16C00CADC38 /* ViewMod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewMod.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				A76D3DF9290294F000457FB6 /* ContentView.swift */,
+				A7FC8B262927D15500CADC38 /* PlayingWithView */,
 				A71D7268291C14C900BFB3C9 /* UserDefaults */,
 				A7AF7D3F291978E200E9143B /* JustForSimple */,
 				A7AF7D3629196AB700E9143B /* WorkingWithView */,
@@ -171,6 +174,14 @@
 				A76D3DF7290294F000457FB6 /* DesignApp.swift */,
 			);
 			path = JustForSimple;
+			sourceTree = "<group>";
+		};
+		A7FC8B262927D15500CADC38 /* PlayingWithView */ = {
+			isa = PBXGroup;
+			children = (
+				A7FC8B272927D16C00CADC38 /* ViewMod.swift */,
+			);
+			path = PlayingWithView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,6 +260,7 @@
 				A78F917329070904008C589B /* taps.swift in Sources */,
 				A7AF7D3A29196F3000E9143B /* ContentForUserSettings.swift in Sources */,
 				A7361EE62902B04000A0ABFA /* Gradient.swift in Sources */,
+				A7FC8B282927D16C00CADC38 /* ViewMod.swift in Sources */,
 				A71D726A291C14D700BFB3C9 /* UserDef.swift in Sources */,
 				A76D3DFA290294F000457FB6 /* ContentView.swift in Sources */,
 				A78F917529070E96008C589B /* List.swift in Sources */,

@@ -8,16 +8,12 @@
 import SwiftUI
 
 struct ContentView: View {
+    
     var body: some View {
-        Text("On a way to my first offer")
+        Text("Senior dev.")
     }
 }
-
-
-
-
-
-
+    
 
 
 
