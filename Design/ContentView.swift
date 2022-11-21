@@ -12,7 +12,7 @@ struct ContentView: View {
    
     
     var body: some View {
-        Text("On my way to become senior")
+        Text("If you read this, i just fixed some errors and made an app setting review with Autolayout")
     }
 }
     
