@@ -8,13 +8,11 @@
 import SwiftUI
 
 struct ContentView: View {
-    
-   
-    
     var body: some View {
-        Text("If you read this, i just fixed some errors and made an app setting review with Autolayout")
+        Text("Lesson is over")
     }
 }
+
     
 
 

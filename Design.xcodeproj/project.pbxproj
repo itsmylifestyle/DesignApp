@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A71D726A291C14D700BFB3C9 /* UserDef.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71D7269291C14D700BFB3C9 /* UserDef.swift */; };
+		A73024D2292D3B7900FE80B2 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73024D1292D3B7900FE80B2 /* CustomTabBar.swift */; };
 		A7361EE22902A65900A0ABFA /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7361EE12902A65900A0ABFA /* Image.swift */; };
 		A7361EE42902A71100A0ABFA /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7361EE32902A71100A0ABFA /* Strings.swift */; };
 		A7361EE62902B04000A0ABFA /* Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7361EE52902B04000A0ABFA /* Gradient.swift */; };
@@ -39,6 +40,7 @@
 
 /* Begin PBXFileReference section */
 		A71D7269291C14D700BFB3C9 /* UserDef.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDef.swift; sourceTree = "<group>"; };
+		A73024D1292D3B7900FE80B2 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 		A7361EE12902A65900A0ABFA /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
 		A7361EE32902A71100A0ABFA /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
 		A7361EE52902B04000A0ABFA /* Gradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gradient.swift; sourceTree = "<group>"; };
@@ -88,6 +90,14 @@
 			path = UserDefaults;
 			sourceTree = "<group>";
 		};
+		A73024D3292D3BAB00FE80B2 /* CustomTab */ = {
+			isa = PBXGroup;
+			children = (
+				A73024D1292D3B7900FE80B2 /* CustomTabBar.swift */,
+			);
+			path = CustomTab;
+			sourceTree = "<group>";
+		};
 		A76D3DEB290294F000457FB6 = {
 			isa = PBXGroup;
 			children = (
@@ -108,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				A76D3DF9290294F000457FB6 /* ContentView.swift */,
+				A73024D3292D3BAB00FE80B2 /* CustomTab */,
 				A7FC8B262927D15500CADC38 /* PlayingWithView */,
 				A71D7268291C14C900BFB3C9 /* UserDefaults */,
 				A7AF7D3F291978E200E9143B /* JustForSimple */,
@@ -261,6 +272,7 @@
 				A7361EEA2902B87D00A0ABFA /* Button.swift in Sources */,
 				A74D9E11290AE0E5006CE335 /* GroupView.swift in Sources */,
 				A78F917329070904008C589B /* taps.swift in Sources */,
+				A73024D2292D3B7900FE80B2 /* CustomTabBar.swift in Sources */,
 				A7AF7D3A29196F3000E9143B /* ContentForUserSettings.swift in Sources */,
 				A7361EE62902B04000A0ABFA /* Gradient.swift in Sources */,
 				A7FC8B282927D16C00CADC38 /* ViewMod.swift in Sources */,
